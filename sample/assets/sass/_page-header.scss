@@ -1,0 +1,11 @@
+// For sticky header
+.sticky-header {
+  @media screen and (max-width: 767px) {
+    position: fixed;
+    width: 100%;
+    top: 36px;
+    &.whu-header-stripe--one {
+      top: 0;
+    }
+  }
+}

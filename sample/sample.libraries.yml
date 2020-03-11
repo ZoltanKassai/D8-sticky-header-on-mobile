@@ -1,0 +1,8 @@
+global-styling:
+  css:
+    theme:
+  js:
+    assets/js/stickyheader.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
